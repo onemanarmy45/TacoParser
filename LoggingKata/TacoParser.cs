@@ -30,15 +30,6 @@
             // grab the name from your array at index 2
             var name = cells[2];
 
-
-            // FIN Youre going to need to parse your string as a `double`
-            // which is similar to parsing a string as an `int`
-
-            // FIN You'll need to create a TacoBell class
-            // that conforms to ITrackable
-
-            // FIN Then, you'll need an instance of the TacoBell class
-            // With the name and point set correctly
             var point = new Point();
             point.Latitude = latitude;
             point.Longitude = longitude;
@@ -46,9 +37,6 @@
             var tacoBell = new TacoBell();
             tacoBell.Name = name;
             tacoBell.Location = point;
-
-            // FIN Then, return the instance of your TacoBell class
-            // Since it conforms to ITrackable
 
             return tacoBell;
         }
